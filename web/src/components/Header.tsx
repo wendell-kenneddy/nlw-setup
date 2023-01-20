@@ -6,7 +6,7 @@ import { NewHabitForm } from './NewHabitForm';
 export function Header() {
   return (
     <div className="w-full max-w-3xl mx-auto flex items-center justify-between">
-      <Image src="/logo.svg" alt="Logo" width={148} height={72} />
+      <Image src="/logo.svg" alt="Logo" width={148} height={72} priority />
 
       <Dialog.Root>
         <Dialog.Trigger
